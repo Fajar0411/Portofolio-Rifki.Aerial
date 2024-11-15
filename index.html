@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rifki-Portofolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .profile-img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        border: 4px solid black;
+      }
+      .icon-btn {
+        background-color: #f3f4f6;
+        padding: 12px;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+      }
+      .icon-btn:hover {
+        background-color: #333;
+        color: #fff;
+        transform: scale(1.1);
+      }
+      .section-title {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-top: 2rem;
+      }
+      .gallery-item {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body class="bg-white text-center font-sans">
+
+    <!-- Header -->
+    <header class="flex justify-between items-center p-6 bg-[rgb(254,249,195)] text-black shadow-md">
+      <h1  class="text-3xl font-bold">Rifki.Aerial</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="mt-20">
+
+      <!-- Profile Section -->
+      <div class="flex flex-col items-center px-6">
+        <div class="relative">
+          <img
+            class="profile-img"
+            alt="Rifki Maulana Firdaus"
+            src="_DSC7588.jpg"
+          />
+          <div class="absolute top-0 right-0 bg-white rounded-full p-2 shadow-lg">
+            <i class="fas fa-star text-black"></i>
+          </div>
+        </div>
+        <h2 class="text-3xl font-bold mt-6">Rifki Maulana Firdaus</h2>
+        <p class="text-gray-600">
+          Creative Content Creator | Photographer | Videographer | Drone Pilot
+        </p>
+
+        <div class="flex space-x-4 mt-6">
+          <a class="icon-btn" href="https://www.instagram.com/rifkii_maulana12/profilecard/?igsh=MXV6N2RyMmdlNThvMA==">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a class="icon-btn" href="https://www.tiktok.com/@rifkiiaerial?_t=8rPyFVbJH4j&_r=1">
+            <i class="fab fa-tiktok"></i>
+          </a>
+          <a class="icon-btn" href="https://wa.me/6289677421556/">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="flex flex-wrap justify-center mt-6 space-x-4">
+          <span class="bg-yellow-100 text-black py-2 px-4 rounded-full shadow-md">Photographer</span>
+          <span class="bg-yellow-100 text-black py-2 px-4 rounded-full shadow-md">Videographer</span>
+          <span class="bg-yellow-100 text-black py-2 px-4 rounded-full shadow-md">Drone Pilot</span>
+        </div>
+      </div>
+
+      <!-- Garis Pembatas di Atas About Me -->
+      <div class="w-full border-t-2 border-gray-300 my-6"></div>
+
+      <!-- About Section -->
+      <section id="about" class="mt-20 px-6 sm:px-8">
+        <h2 class="section-title">About Me</h2>
+        <p class="text-gray-700 mt-4">
+          Saya, Rifki Maulana Firdaus, adalah seorang content creator yang sangat berdedikasi, dengan spesialisasi dalam fotografi, videografi, dan pengoperasian drone. Saya memiliki hasrat besar untuk menangkap keindahan visual melalui lensa kamera, baik itu dalam bentuk foto maupun video, dan selalu berusaha menghasilkan karya-karya yang tidak hanya menarik secara visual, tetapi juga mampu menceritakan sebuah kisah yang mendalam. Sebagai seorang content creator yang aktif di berbagai platform media sosial, saya berusaha memperluas jangkauan audiens saya dan terhubung dengan komunitas kreatif lainnya. Saya percaya bahwa setiap tantangan baru adalah peluang untuk belajar dan berkembang, dan saya selalu siap untuk mengeksplorasi batas-batas kreativitas saya.
+        </p>
+      </section>
+
+      <!-- Garis Pembatas di Atas Gallery -->
+      <div class="w-full border-t-2 border-gray-300 my-6"></div>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="mt-20 px-6 sm:px-8">
+        <h2 class="section-title">Gallery</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+          <img class="gallery-item" src="dji_fly_20241022_081302_422_1729559590740_photo_optimized.jpg" alt="Gallery Image 1" />
+          <img class="gallery-item" src="DJI_0038.jpg" alt="Gallery Image 2" />
+          <img class="gallery-item" src="DJI_0055.jpg" alt="Gallery Image 3" />
+          <img class="gallery-item" src="dji_fly_20241104_165232_689_1730714020854_photo_optimized.jpg" alt="Video Thumbnail 1" />
+          <img class="gallery-item" src="dji_fly_20241108_212104_747_1731075680805_photo_optimized.jpg" alt="Video Thumbnail 2" />
+          <img class="gallery-item" src="dji_fly_20241104_165052_686_1730714004498_photo_optimized.jpg" alt="Video Thumbnail 3" />
+        </div>
+      </section>
+
+      <!-- Garis Pembatas di Atas Contact -->
+      <div class="w-full border-t-2 border-gray-300 my-6"></div>
+
+      <!-- Contact Section -->
+      <section id="contact" class="mt-20 px-6 sm:px-8">
+        <h2 class="section-title">Contact Me</h2>
+        <p class="text-gray-700 mt-4">
+          Jika anda berminat untuk membuat dokumentasi yang menarik silahkan hubungin media sosial di atas
+        </p>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4 text-center">
+      <p>&copy; 2024 Rifki.Aerial | All Rights Reserved</p>
+    </footer>
+
+  </body>
+</html>
